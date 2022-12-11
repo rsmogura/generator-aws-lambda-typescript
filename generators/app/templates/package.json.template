@@ -1,0 +1,35 @@
+{
+  "name": "<%= pkgName %>",
+  "version": "1.0.0",
+  "description": "AWS Lambda: <%= appName %> (Generated with ❤️ by generator-aws-lambda-typescript, Rado, Ola & lovely Ewa)",
+  "scripts": {
+    "watch": "webpack --watch",
+    "lint": "eslint .",
+    "build": "webpack build --mode production",
+    "package": "cd dist && zip -9 lambda.zip index.js",
+    "package:prod": "eslint . && webpack build --mode production && jest && cd dist && zip -9 lambda.zip index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "AWS",
+    "Lambda"
+  ],
+  "license": "<%= license %>",
+  "devDependencies": {
+    "@jest/globals": "^29.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "eslint": "^8.29.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^29.3.1",
+    "prettier": "^2.8.1",
+    "ts-jest": "^29.0.3",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.109"
+  }
+}

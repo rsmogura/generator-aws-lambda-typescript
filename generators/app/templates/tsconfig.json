@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "lib": [ "ES2022"],
+
+        "alwaysStrict": true,
+        "esModuleInterop": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strictNullChecks": true,
+        "sourceMap": true,
+        "strict": true,
+    }
+}

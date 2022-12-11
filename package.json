@@ -1,0 +1,26 @@
+{
+  "name": "generator-aws-lambda-typescript",
+  "version": "1.0.0",
+  "description": "Yeoman generator to create AWS Lambda in TypeScript with strong size-optimizations and production operations quality",
+  "files": [
+    "generators/app"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "AWS",
+    "Lambda"
+  ],
+  "author": "Rado Smogura",
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/rsmogura/generator-aws-lambda-typescript.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "case": "^1.6.3",
+    "yeoman-generator": "^5.7.0"
+  }
+}

@@ -1,0 +1,5 @@
+/dist
+/node_modules
+/coverage
+.DS_Store
+/generator-aws-lambda-typescript*.tgz
